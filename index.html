@@ -3,54 +3,57 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="style.css" />
-    <title>AK-Umwelt-LS</title>
+    <link rel="stylesheet" href="/css/style.css" />
+    <title>AK-Umwelt-Html-Prototyp-Startseite</title>
   </head>
   <body>
     <!-- HERO -->
     <header>
-      <div class="wrapper heroImage">
-        <div class="row">
-          <div class="column col_1_4">
-            <a href="index.html">
-              <img
-                src="https://loremflickr.com/255/75/logo"
-                width="255"
-                height="75"
-                alt="logo platzhalter"
-              />
-            </a>
-          </div>
-          <div class="column col_3_4">
-            <nav>
-              <ul id="navigation">
-                <li><a href="ueber-uns.html">VEREIN</a></li>
-                <li><a href="projekte.html">PROJEKTE</a></li>
-                <li><a href="aktionen.html">AKTUELLES</a></li>
-                <li><a href="mitglied-werden.html">MITMACHEN</a></li>
-                <li>
-                  <a href="mitglied-werden.html"
-                    ><button>Jetzt Spenden</button></a
-                  >
-                </li>
-              </ul>
-            </nav>
-          </div>
-        </div>
-
-        <section>
-          <div class="row">
-            <div class="column col_1_2 hero-text">
-              <h1>AK UMWELT MOMBACH E.V</h1>
-              <p>
-                Seit über 30 Jahren setzen wir uns mit Herzblut für die Natur
-                und die Umwelt in Mainz-Mombach ein. Werde auch Mitglied oder
-                hilf uns mit einer kleinen Spende,
-              </p>
+      <div class="wrapper">
+        <div class="heroImage">
+          <div class="navbar">
+            <div id="navigation">
+              <div class="column col_1_4" id="logo">
+                <a href="index.html">
+                  <img
+                    src="/logos/AK-Umwelt.svg"
+                    alt="logo platzhalter"
+                    id="logo"
+                  />
+                </a>
+              </div>
+              <div class="column col_3_4">
+                <nav class="nav-elements">
+                  <ul>
+                    <li><a href="ueber-uns.html">VEREIN</a></li>
+                    <li><a href="projekte.html">PROJEKTE</a></li>
+                    <li><a href="aktionen.html">AKTUELLES</a></li>
+                    <li><a href="mitglied-werden.html">MITMACHEN</a></li>
+                    <li>
+                      <a href="mitglied-werden.html"
+                        ><button>Jetzt Spenden</button></a
+                      >
+                    </li>
+                  </ul>
+                </nav>
+              </div>
             </div>
-            <div class="column col_1_2"></div>
           </div>
-        </section>
+
+          <section class="hero">
+            <div class="row">
+              <div class="column col_1_2">
+                <h1>AK UMWELT MOMBACH E.V</h1>
+                <h2>
+                  Seit über 30 Jahren setzen wir uns mit Herzblut für die Natur
+                  und die Umwelt in Mainz-Mombach ein. Werde auch Mitglied oder
+                  unterstütze uns mit einer kleinen Spende.
+                </h2>
+              </div>
+              <div class="column col_1_2"></div>
+            </div>
+          </section>
+        </div>
       </div>
     </header>
     <!-- Unsere Projekte -->
@@ -232,7 +235,7 @@
           </div>
           <div class="column col_3_4">
             <footer>
-              <ul id="navigation">
+              <ul>
                 <li><a href="ueber-uns.html">Impressum</a></li>
                 <li><a href="projekte.html">Kontakt</a></li>
                 <li><a href="aktionen.html">Satzung</a></li>
