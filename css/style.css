@@ -21,6 +21,7 @@
   --blau: rgb(38, 61, 85);
   --blau-alpha: rgb(38, 61, 85, 0.6);
   --beige: #e4dcb5;
+  --beige-alpha: rgb(228, 220, 181, 0.4);
   --gelbbraun: #a88b35;
   --braun: #7c523d;
 }
@@ -114,6 +115,8 @@ h3 {
   line-height: 1.6;
 }
 h4 {
+  margin-top: 10px;
+  color: var(--gelbbraun);
   font-size: 0.9rem;
   font-weight: 700;
   text-align: center;
@@ -132,16 +135,23 @@ h4 {
 /* Link und Absatzdefinition */
 
 a {
-  color: var(--blau);
+  color: var(--beige);
   text-decoration: none;
   font-weight: 600;
-}
-a:hover {
-  text-decoration: underline;
 }
 
 p {
   margin: 0 0 15px;
+}
+
+.main-link::before {
+  content: '';
+  display: block;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
 }
 
 /* ***************STYLES***************** */
@@ -298,6 +308,10 @@ button:hover {
 .pro-box {
   position: relative;
 }
+.pro-box:hover {
+  transform: scale(1.05);
+  transition: all 0.3s ease;
+}
 
 .projekt-title {
   position: absolute;
@@ -305,7 +319,7 @@ button:hover {
   left: 0;
   right: 10%;
   border-radius: 0 50px 50px 0;
-  background: var(--blau);
+  background: var(--blau-alpha);
   color: var(--beige);
   padding: 10px 0;
   font-weight: bold;
@@ -409,6 +423,10 @@ button:hover {
   padding: 10px;
 }
 
+.email-form {
+  position: relative;
+}
+
 .email-form .input-wrapper {
   display: flex;
   align-items: center;
@@ -425,8 +443,8 @@ button:hover {
 
 .email-form button {
   position: absolute;
-  right: 0.2em;
-  height: 80%;
+  right: 0;
+  height: 100%;
   margin: auto;
   border: none;
   padding: 0.6em 1.2em;
@@ -442,6 +460,7 @@ button:hover {
 .actions {
   display: flex;
   justify-content: center;
+  margin-bottom: 80px;
 }
 .card {
   background-color: var(--beige);
@@ -451,6 +470,12 @@ button:hover {
   height: 450px;
   align-items: center;
 }
+
+.card:hover {
+  transform: scale(1.05);
+  transition: all 0.3s ease;
+}
+
 .card .content h4 {
   font-style: italic;
   margin: 0.6rem 1rem 0;
@@ -481,6 +506,52 @@ button:hover {
   font-size: 0.9rem;
   text-align: center;
   margin-bottom: 10px;
+}
+
+/* Flora - Fauna */
+
+.flora-fauna {
+  background-color: var(--beige-alpha);
+  height: auto;
+  padding-bottom: 80px;
+}
+
+.kategorie img {
+  width: 100%;
+  height: 150px;
+  object-fit: cover;
+}
+
+.kategorie:hover,
+.kategorie:hover h4 {
+  transform: scale(1.05);
+  transition: all 0.3s ease;
+  color: var(--blue);
+}
+
+/* Footer */
+
+footer li {
+  float: left;
+  list-style: none;
+  padding-left: 60px;
+  font-size: 0.6rem;
+  font-weight: 300;
+}
+
+footer .email-form {
+  width: 100px;
+}
+
+footer li:hover {
+  color: var(--gelbbraun);
+}
+
+.footer {
+  background-color: var(--blau);
+  color: var(--beige);
+  padding: 20px;
+  text-align: left;
 }
 
 /* Unterseite Storchenwiesen */

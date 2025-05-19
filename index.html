@@ -62,13 +62,19 @@
       <div class="wrapper">
         <div class="row">
           <div class="column col_1_3 pro-box sand">
-            <div class="projekt-title"><h3>Mainzer Sand</h3></div>
+            <div class="projekt-title main-link">
+              <a href="#"> <h3>Mainzer Sand</h3></a>
+            </div>
           </div>
           <div class="column col_1_3 pro-box storchenwiesen">
-            <div class="projekt-title"><h3>Storchenwiesen</h3></div>
+            <div class="projekt-title">
+              <a href="#" class="main-link"><h3>Storchenwiesen</h3></a>
+            </div>
           </div>
           <div class="column col_1_3 pro-box fledermausquartier">
-            <div class="projekt-title"><h3>Fledermausquartier</h3></div>
+            <div class="projekt-title">
+              <a href="#" class="main-link"><h3>Fledermausquartier</h3></a>
+            </div>
           </div>
           <div class="weitere-projekte">
             <a href="#">weitere Projekte</a>
@@ -123,7 +129,9 @@
               alt="Bild Stoerche auf der Wiese"
             />
             <div class="content">
-              <h4>Erfolgreiche Aktion in den Storchenwiesen</h4>
+              <a href="#" class="main-link"
+                ><h4>Erfolgreiche Aktion in den Storchenwiesen</h4></a
+              >
               <p>Biotoppflege im Mombacher Unterfeld</p>
             </div>
 
@@ -137,7 +145,10 @@
               alt="logo platzhalter"
             />
             <div class="content">
-              <h4>MITGLIEDERVERSAMMLUNG JAHRESRÜCKBLICK</h4>
+              <a href="#" class="main-link"
+                ><h4>MITGLIEDERVERSAMMLUNG JAHRESRÜCKBLICK</h4></a
+              >
+
               <p>AK blickte auf ein erfolgreiches Jahr zurück.</p>
             </div>
 
@@ -151,7 +162,10 @@
               alt="logo platzhalter"
             />
             <div class="content">
-              <h4>AK UMWELT SPENDET MATERIAL</h4>
+              <a href="#" class="main-link"
+                ><h4>AK UMWELT SPENDET MATERIAL</h4></a
+              >
+
               <p>Das Gymnasium Mainz-Mombach baut Nisthilfen für Insekten.  </p>
             </div>
 
@@ -162,50 +176,58 @@
     </section>
     <!-- Flora & Fauna  -->
     <section>
-      <div class="wrapper">
+      <div class="wrapper flora-fauna">
         <h2>Flora & Fauna</h2>
         <div class="row">
-          <div class="column col_1_4">
-            <img
-              src="https://picsum.photos/265"
-              width="265"
-              alt="logo platzhalter"
-            />
+          <div class="column col_1_4 kategorie">
+            <a href="#">
+              <img
+                src="/images/voegel.webp"
+                width="265"
+                alt="logo platzhalter"
+              />
+            </a>
             <h4>Vögel</h4>
           </div>
-          <div class="column col_1_4">
-            <img
-              src="https://picsum.photos/265"
-              width="265"
-              alt="logo platzhalter"
-            />
-            <h4>Vögel</h4>
+          <div class="column col_1_4 kategorie">
+            <a href="#">
+              <img
+                src="images/Saeugetiere.webp"
+                width="265"
+                alt="logo platzhalter"
+              />
+            </a>
+            <h4>Säugetiere</h4>
           </div>
-          <div class="column col_1_4">
-            <img
-              src="https://picsum.photos/265"
-              width="265"
-              alt="logo platzhalter"
-            />
-            <h4>Vögel</h4>
+          <div class="column col_1_4 kategorie">
+            <a href="#">
+              <img
+                src="images/insekten.webp"
+                width="265"
+                alt="logo platzhalter"
+              />
+            </a>
+            <h4>Insekten</h4>
           </div>
-          <div class="column col_1_4">
-            <img
-              src="https://picsum.photos/265"
-              width="265"
-              alt="logo platzhalter"
-            />
-            <h4>Vögel</h4>
+          <div class="column col_1_4 kategorie">
+            <a href="#">
+              <img
+                src="/images/pflanzen.webp"
+                width="265"
+                alt="logo platzhalter"
+              />
+            </a>
+            <h4>Pflanzen</h4>
           </div>
         </div>
       </div>
     </section>
     <!-- Footer-->
-    <section>
+    <section class="footer">
       <div class="wrapper">
         <div class="row">
-          <div class="column col_1_4"></div>
-          <div class="column col_3_4">
+          <div class="column col_1_3"></div>
+          <div class="column col_2_3">
             <form class="email-form">
               <input type="email" placeholder="E-Mail" />
               <button type="submit">Abbonieren</button>
@@ -221,20 +243,19 @@
           <div class="column col_1_4">
             <a href="index.html">
               <img
-                src="https://loremflickr.com/255/75/logo"
-                width="255"
-                height="75"
+                src="/logos/AK-Umwelt.svg"
                 alt="logo platzhalter"
+                id="logo"
               />
             </a>
           </div>
           <div class="column col_3_4">
             <footer>
               <ul>
-                <li><a href="ueber-uns.html">Impressum</a></li>
-                <li><a href="projekte.html">Kontakt</a></li>
-                <li><a href="aktionen.html">Satzung</a></li>
-                <li><a href="mitglied-werden.html">Datenschutzerklärung</a></li>
+                <li><a href="#">Impressum</a></li>
+                <li><a href="#">Kontakt</a></li>
+                <li><a href="#">Satzung</a></li>
+                <li><a href="#">Datenschutzerklärung</a></li>
               </ul>
             </footer>
           </div>
