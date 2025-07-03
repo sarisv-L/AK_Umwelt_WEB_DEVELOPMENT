@@ -208,7 +208,7 @@ p {
       rgba(0, 0, 0, 0.02),
       rgba(0, 0, 0, 0.7)
     ),
-    url('/images/damian-karpinski-NABa2krZS2Y-unsplash-min.webp');
+    url('../images/damian-karpinski-NABa2krZS2Y-unsplash-min.webp');
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -347,7 +347,7 @@ nav.nav-elements > ul {
       rgba(0, 0, 0, 0.02),
       rgba(0, 0, 0, 0.7)
     ),
-    url('/images/sand.webp');
+    url('../images/sand.webp');
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -362,7 +362,7 @@ nav.nav-elements > ul {
       rgba(0, 0, 0, 0.02),
       rgba(0, 0, 0, 0.7)
     ),
-    url('/images/storchenwiesen.webp');
+    url('../images/storchenwiesen.webp');
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -377,7 +377,7 @@ nav.nav-elements > ul {
       rgba(0, 0, 0, 0.02),
       rgba(0, 0, 0, 0.7)
     ),
-    url('/images/fledermausquartier.webp');
+    url('../images/fledermausquartier.webp');
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -433,7 +433,7 @@ nav.nav-elements > ul {
       rgba(0, 0, 0, 0.3),
       rgba(0, 0, 0, 0.6)
     ),
-    url('/images/sand.webp');
+    url('../images/sand.webp');
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -462,7 +462,7 @@ nav.nav-elements > ul {
       rgba(0, 0, 0, 0.02),
       rgba(0, 0, 0, 0.7)
     ),
-    url('/images/mitglied.webp');
+    url('../images/mitglied.webp');
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
